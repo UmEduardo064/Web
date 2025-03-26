@@ -1,0 +1,41 @@
+# Diretórios e arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Diretório de dependências do Node
+node_modules/
+
+# Cache e arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+dist/
+build/
+out/
+
+# Dependências
+/bower_components/
+/.pnp
+.pnp.js
+
+# Arquivos do sistema operacional
+*.log
