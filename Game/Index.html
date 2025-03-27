@@ -9,30 +9,29 @@
 <body>
     <div class="tudo">
         <div id="conteiner">
-        <div class="box" id="box1">
-            <form>
-                <label for="idade">Digite um numero:</label>
-                <input type="number" id="numero" name="numero" placeholder="Make your Palpite">
-            </form>
+            <div class="box" id="box1">
+                <form>
+                    <label>Digite um numero:</label>
+                    <input type="number" id="numero" name="numero" placeholder="">
+                </form>
+            </div>
+
+            <button onclick="verification()"><p> ? </p></button>
+
+            <div class="box" id="box2">
+                <form>
+                    <label> Resposta: </label>
+                    <div id="resultado" class="resultado-box"></div>
+                </form>
+            </div>
+
+            <div class="box" id="box3">
+                <form>
+                    <label> Dica: </label>
+                    <div id="maiormenor" class="dica-box"></div>
+                </form>
+            </div>
         </div>
-
-        <button onclick="verification()"> <p>Sera??</p> </button>
-
-        <div class="box" id="box2">
-            <form>
-                <label for="idade"> Maior ou Menor:</label>
-                <input type="text" id="maiormenor" name="maiormenor" placeholder="...?">
-            </form>
-        </div>
-
-        <div class="box" id="box3">
-            <form>
-                <label for="idade">Resutaldo:</label>
-                <input type="text" id="resut" name="resutaldo" placeholder="Tenta ai bobao">
-            </form>
-        </div>
-
-    </div>
     </div>
     <script src="TheGame.js"></script>
 </body>
