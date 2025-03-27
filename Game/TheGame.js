@@ -1,4 +1,4 @@
-const ran = Math.floor(Math.random() * 200) + 1;
+const ran = Math.floor(Math.random() * 200) +1;
 console.log("Número secreto (para teste):", ran);
 
 function verification() {
@@ -17,13 +17,13 @@ function verification() {
     } else if (ran < numberUser) {
         mensResultado.textContent = "Tente Novamente!";
         mensResultado.style.color = 'red';
-        mensDica.textContent = "O numero e menor que --> " + numberUser;
-        mensDica.style.color = 'yellow';
+        mensDica.textContent = "O numero e menor que " + numberUser;
+        mensDica.style.color = 'black';
     } else {
         mensResultado.textContent = "Tente Novamente!";
         mensResultado.style.color = 'red';
-        mensDica.textContent = "O numero e maior que --> " + numberUser;
-        mensDica.style.color = 'yellow';
+        mensDica.textContent = "O numero e maior que " + numberUser;
+        mensDica.style.color = 'black';
     }
 }
 

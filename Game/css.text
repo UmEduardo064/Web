@@ -5,15 +5,6 @@ body {
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom right, #e8f388, #91e989, #90f1f8);
-    
-    
-
-
-    color: rgb(0, 0, 0);
-    font-family: adso;    
-    font-family: "Boldonse", system-ui;
-    font-weight: 400;
-    font-style: normal;
 }
 
 #conteiner {
@@ -41,12 +32,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*position: relative;
-    top: 0;
-    left: 0;*/
 }
-
-    
 
 .resposta-box, .dica-box {
     width: 100%;
@@ -58,28 +44,3 @@ body {
     background-color: white;
     text-align: center;
 }
-
-#box1 {
-    background-color: rgb(241, 147, 147);
-    z-index: 1;
-
-}
-
-#box2 {
-    background-color: rgb(200, 255, 0);
-    z-index: 2;
-    
-}
-
-
-#box3 {
-    background-color: rgb(149, 255, 172);
-    z-index: 2;
-    
-}
-
-
-
-
-  
-
