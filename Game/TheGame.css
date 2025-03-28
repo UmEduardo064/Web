@@ -1,78 +1,78 @@
 body {
-    height: 100vh; /* Alterado de 800px para vh */
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(to bottom right, #e8f388, #91e989, #90f1f8);
+    height: 100vh;           /* Define a altura como 100% da viewport (tela visível) */
+    margin: 0;               /* Remove todas as margens padrão do elemento */
+    display: flex;           /* Ativa o modelo de layout Flexbox */
+    align-items: center;     /* Centraliza os itens verticalmente no container */
+    justify-content: center; /* Centraliza os itens horizontalmente no container */
+    background: linear-gradient(to bottom right, #e8f388, #91e989, #90f1f8); /* Cria um gradiente de cores */
 
-    color: rgb(0, 0, 0);
-    font-family: adso;    
-    font-family: "Boldonse", system-ui;
-    font-weight: 400;
-    font-style: normal;
+    color: rgb(0, 0, 0);   /* Define a cor do texto como preto */
+    font-family: adso;       /* Primeira opção de fonte (se adso não existir, usa a próxima) */    
+    font-family: "Boldonse", system-ui; /* Segunda opção de fonte com fallback para system-ui */
+    font-weight: 400;        /* Define o peso da fonte como normal (não negrito) */
+    font-style: normal;      /* Define o estilo da fonte como normal (não itálico) */
 }
 
 #conteiner {
-    position: relative;
-    width: 300px;
-    min-height: 400px; /* Alterado para min-height */
-    padding: 20px;
-    border: 10px solid #5512d1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    background: linear-gradient(to bottom right, #9a9cfa, #7986f7, #653ff1);
-    border-radius: 10px;
+    position: relative;      /* Define o posicionamento relativo (para elementos filhos absolutos) */
+    width: 300px;            /* Largura fixa de 300 pixels */
+    min-height: 400px;       /* Altura mínima de 400px (cresce se necessário) */
+    padding: 20px;           /* Espaçamento interno de 20px em todos os lados */
+    border: 10px solid #5512d1; /* Borda sólida roxa de 10px de espessura */
+    display: flex;           /* Ativa o modelo Flexbox */
+    flex-direction: column;  /* Organiza os itens em coluna (vertical) */
+    align-items: center;     /* Centraliza os itens horizontalmente */
+    gap: 15px;               /* Espaço de 15px entre os elementos filhos */
+    background: linear-gradient(to bottom right, #9a9cfa, #7986f7, #653ff1); /* Gradiente de cores */
+    border-radius: 10px;     /* Bordas arredondadas de 10px */
 }
 
 .box {
-    width: 100%;
-    min-height: 80px;
-    border: 2px solid blue;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /*position: relative;
-    top: 0;
-    left: 0;*/
+    width: 100%;                /* Ocupa 100% da largura do elemento pai */
+    min-height: 80px;           /* Altura mínima de 80 pixels (pode aumentar conforme conteúdo) */
+    border: 2px solid blue;   /* Borda sólida azul de 2px de espessura */
+    padding: 10px;              /* Espaçamento interno de 10px em todos os lados */
+    background-color: white;  /* Fundo branco */
+    border-radius: 5px;         /* Bordas levemente arredondadas (5px) */
+    display: flex;              /* Ativa o modelo de layout Flexbox */
+    flex-direction: column;     /* Organiza os itens filhos em coluna (verticalmente) */
+    align-items: center;        /* Centraliza os itens horizontalmente no container */
+    justify-content: center;    /* Centraliza os itens verticalmente no container */
+    text-align: center;         /* Alinha o texto ao centro (para conteúdo de texto) */
+    /*position: relative;*/     
+    /*top: 0;*/                  
+    /*left: 0;*/
 }
 
     
 
 .resposta-box, .dica-box {
-    width: 100%;
-    min-height: 30px;
-    padding: 5px;
-    margin-top: 5px;
-    border: 1px solid black;
-    border-radius: 4px;
-    background-color: white;
-    text-align: center;
+    width: 100%;               /* Ocupa toda a largura disponível do elemento pai */
+    min-height: 30px;          /* Altura mínima de 30 pixels (expande conforme conteúdo) */
+    padding: 5px;              /* Espaçamento interno de 5px em todos os lados */
+    margin-top: 5px;           /* Margem superior de 5px para separar de elementos acima */
+    border: 1px solid black; /* Borda fina preta de 1px */
+    border-radius: 4px;        /* Cantos levemente arredondados (4px de raio) */
+    background-color: white; /* Fundo branco sólido */
+    text-align: center;        /* Alinha o conteúdo textual ao centro horizontal */
 }
 
 #box1 {
     background-color: rgb(241, 147, 147);
-    z-index: 1;
+    z-index: 1; /* Define a ordem de empilhamento (sobreposição) do elemento */
 
 }
 
 #box2 {
     background-color: rgb(200, 255, 0);
-    z-index: 2;
+    z-index: 2; /* Define a ordem de empilhamento (sobreposição) do elemento */
     
 }
 
 
 #box3 {
     background-color: rgb(149, 255, 172);
-    z-index: 2;
+    z-index: 2; /* Define a ordem de empilhamento (sobreposição) do elemento */
     
 }
 
